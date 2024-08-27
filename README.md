@@ -69,3 +69,15 @@ m3u8_url = 'https://f.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-
 output_file = 'output.mp4'
 
 download_m3u8_to_mp4(m3u8_url, output_file)
+```
+
+Running this will download and convert the stream to output.mp4.
+
+## License
+
+This project is licensed under the MIT License.
+
+### Additional Notes
+
+- Make sure to include a `requirements.txt` file in your repository with the necessary dependencies, such as `ffmpeg-python`.
+- The example script includes a hardcoded M3U8 URL and output file path, but you may want to modify this to accept command-line arguments or input from the user.
